@@ -1,0 +1,54 @@
+[21-Feb-2025 12:53:22 UTC] PHP Warning:  include(function.php): Failed to open stream: No such file or directory in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[21-Feb-2025 12:53:22 UTC] PHP Warning:  include(): Failed opening 'function.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[21-Feb-2025 14:45:21 UTC] PHP Warning:  include(function.php): Failed to open stream: No such file or directory in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[21-Feb-2025 14:45:21 UTC] PHP Warning:  include(): Failed opening 'function.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[21-Feb-2025 15:00:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 're looking to boost the health and vitality of your fish, look no further tha...' at line 1 in /home/ecofpzeg/public_html/admin/edit_blog.php:78
+Stack trace:
+#0 /home/ecofpzeg/public_html/admin/edit_blog.php(78): mysqli->query()
+#1 {main}
+  thrown in /home/ecofpzeg/public_html/admin/edit_blog.php on line 78
+[21-Feb-2025 15:00:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 're looking to boost the health and vitality of your fish, look no further tha...' at line 1 in /home/ecofpzeg/public_html/admin/edit_blog.php:78
+Stack trace:
+#0 /home/ecofpzeg/public_html/admin/edit_blog.php(78): mysqli->query()
+#1 {main}
+  thrown in /home/ecofpzeg/public_html/admin/edit_blog.php on line 78
+[23-Feb-2025 05:54:30 UTC] PHP Warning:  include(function.php): Failed to open stream: No such file or directory in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[23-Feb-2025 05:54:30 UTC] PHP Warning:  include(): Failed opening 'function.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[23-Feb-2025 16:56:38 UTC] PHP Warning:  include(function.php): Failed to open stream: No such file or directory in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[23-Feb-2025 16:56:38 UTC] PHP Warning:  include(): Failed opening 'function.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[31-May-2025 22:29:51 UTC] PHP Warning:  include(function.php): Failed to open stream: No such file or directory in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[31-May-2025 22:29:51 UTC] PHP Warning:  include(): Failed opening 'function.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[31-May-2025 22:39:48 UTC] PHP Warning:  include(function.php): Failed to open stream: No such file or directory in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[31-May-2025 22:39:48 UTC] PHP Warning:  include(): Failed opening 'function.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[31-May-2025 22:39:57 UTC] PHP Warning:  include(function.php): Failed to open stream: No such file or directory in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[31-May-2025 22:39:57 UTC] PHP Warning:  include(): Failed opening 'function.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[31-May-2025 22:40:15 UTC] PHP Warning:  include(function.php): Failed to open stream: No such file or directory in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[31-May-2025 22:40:15 UTC] PHP Warning:  include(): Failed opening 'function.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[03-Jun-2025 01:23:30 UTC] PHP Warning:  include(function.php): Failed to open stream: No such file or directory in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[03-Jun-2025 01:23:30 UTC] PHP Warning:  include(): Failed opening 'function.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[03-Jun-2025 01:23:59 UTC] PHP Warning:  include(function.php): Failed to open stream: No such file or directory in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[03-Jun-2025 01:23:59 UTC] PHP Warning:  include(): Failed opening 'function.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[03-Jun-2025 01:24:34 UTC] PHP Warning:  include(function.php): Failed to open stream: No such file or directory in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[03-Jun-2025 01:24:34 UTC] PHP Warning:  include(): Failed opening 'function.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[03-Jun-2025 01:24:49 UTC] PHP Warning:  include(function.php): Failed to open stream: No such file or directory in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[03-Jun-2025 01:24:49 UTC] PHP Warning:  include(): Failed opening 'function.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[03-Jun-2025 01:24:57 UTC] PHP Warning:  include(function.php): Failed to open stream: No such file or directory in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[03-Jun-2025 01:24:57 UTC] PHP Warning:  include(): Failed opening 'function.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[03-Jun-2025 01:25:06 UTC] PHP Warning:  include(function.php): Failed to open stream: No such file or directory in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[03-Jun-2025 01:25:06 UTC] PHP Warning:  include(): Failed opening 'function.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[03-Jun-2025 01:30:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'price' cannot be null in /home/ecofpzeg/public_html/admin/add_product.php:59
+Stack trace:
+#0 /home/ecofpzeg/public_html/admin/add_product.php(59): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ecofpzeg/public_html/admin/add_product.php on line 59
+[03-Jun-2025 01:34:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'price' cannot be null in /home/ecofpzeg/public_html/admin/add_product.php:62
+Stack trace:
+#0 /home/ecofpzeg/public_html/admin/add_product.php(62): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ecofpzeg/public_html/admin/add_product.php on line 62
+[04-Jun-2025 04:02:02 UTC] PHP Warning:  include(function.php): Failed to open stream: No such file or directory in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[04-Jun-2025 04:02:02 UTC] PHP Warning:  include(): Failed opening 'function.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[11-Oct-2025 08:05:08 UTC] PHP Warning:  include(function.php): Failed to open stream: No such file or directory in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[11-Oct-2025 08:05:08 UTC] PHP Warning:  include(): Failed opening 'function.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[11-Oct-2025 08:05:16 UTC] PHP Warning:  include(function.php): Failed to open stream: No such file or directory in /home/ecofpzeg/public_html/admin/logincode.php on line 4
+[11-Oct-2025 08:05:16 UTC] PHP Warning:  include(): Failed opening 'function.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ecofpzeg/public_html/admin/logincode.php on line 4

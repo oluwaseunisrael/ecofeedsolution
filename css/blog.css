@@ -1,0 +1,114 @@
+  /* Blog Highlights Section */
+.blog-highlights {
+    padding: 60px 4%;
+    background: #fff;
+}
+
+.blog-highlights h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4CAF50;; /* Deep Ocean Blue */
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.blog-item {
+    background: #f9f9f9;
+    padding: 20px;
+
+    flex: 0 0 calc(33.33% - 30px); /* 3 items per row */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+ height:350px;
+ object-fit:cover;
+}
+
+.date-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.blog-item h3 {
+    font-size:1.3rem;
+    font-weight: 600;
+    color: #4CAF50;; /* Deep Ocean Blue */
+    margin-bottom: 15px;
+}
+
+.blog-item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.blog-item a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4CAF50;; /* Deep Ocean Blue */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.blog-item a:hover {
+    background: #002244; /* Darker shade of blue */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+}
+.blog-highlights h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4CAF50;; /* Deep Ocean Blue */
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+}
+@media (max-width: 768px) {
+    .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+}
+.blog-highlights h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4CAF50;; /* Deep Ocean Blue */
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+}

@@ -1,0 +1,128 @@
+   /* About Section */
+        .about {
+            line-height: 1.6;
+            background: #f4f4f4;
+            color: #333;
+       
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            padding: 60px 4%;
+            gap:1.5rem;
+            background: #fff;
+        }
+
+        .about-one {
+            max-width: 100%;
+        }
+ .header-part h1{
+              font-size: 2rem!important;
+        }
+        .about-one h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #4CAF50; /* Deep Ocean Blue */
+            margin-bottom: 20px;
+        }
+
+        .about-one p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .about-one p strong {
+            color: #4CAF50; /* Deep Ocean Blue */
+        }
+
+        .img img {
+            max-width: 100%;
+           
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .about {
+                grid-template-columns: repeat(1, 1fr);
+                text-align: center;
+                padding: 40px 4%;
+            }
+
+            .about-one {
+                max-width: 100%;
+                margin-bottom: 30px;
+            }
+
+            .img img {
+                width: 100%;
+            }
+        }
+          @media (max-width: 576px) {
+            .header-part{
+                font-size: 2rem!important;
+            }
+            .about {
+                grid-template-columns: repeat(1, 1fr);
+                text-align: center;
+                padding: 40px 4%;
+            }
+
+            .about-one {
+                max-width: 100%;
+                margin-bottom: 30px;
+            }
+
+            .img img {
+                width: 100%;
+            }
+              .about-one h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #4CAF50; /* Deep Ocean Blue */
+            margin-bottom: 20px;
+        }
+        }
+        /* Mission, Vision, and Core Values */
+        .mission-vision {
+            margin: 0 4%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .mission-vision .card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+           
+        }
+
+        .mission-vision .card h3 {
+            font-size:1.5rem;
+            font-weight: 600;
+            color: #4CAF50; /* Deep Ocean Blue */
+            margin-bottom: 15px;
+        }
+
+        .mission-vision .card p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* Team Introduction */
+      
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .mission-vision {
+                grid-template-columns: 1fr;
+            }
+
+            .team {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        

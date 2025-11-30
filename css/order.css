@@ -1,0 +1,88 @@
+     
+        .order-header {
+            background:#4CAF50;
+            color: white;
+            padding: 30px 0;
+            margin-top:50px;
+            text-align: center;
+            margin-bottom: 0px;
+          
+        }
+        
+        .order-header h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+        
+        .order-form {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #333;
+        }
+        
+        input[type="text"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+        
+        .submit-btn {
+            background-color:#4CAF50;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+        
+        .submit-btn:hover {
+            background-color: #002244;
+        }
+        
+        .price-indicator {
+            font-style: italic;
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        .negotiable-price {
+            color: #FF9F1C;
+            font-weight: 500;
+        }
+        
+        @media (max-width: 600px) {
+            .order-header h1 {
+                font-size: 1.5rem;
+            }
+            
+            .order-form {
+                padding: 20px;
+            }
+        }

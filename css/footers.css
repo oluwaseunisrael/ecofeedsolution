@@ -1,0 +1,84 @@
+/* Footer Section */
+        .footer {
+            padding: 60px 10%;
+            background: #388E3C; /* Darker shade of blue */
+            color: #fff;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+        }
+
+        .footer h3 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer ul li a:hover {
+            color: #FFD700; /* Golden Yellow */
+        }
+
+        .footer .social-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .footer .social-links a {
+            color: #fff;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+
+        .footer .social-links a:hover {
+            color: #FFD700; /* Golden Yellow */
+        }
+
+        .footer .newsletter form {
+            display: flex;
+            gap: 10px;
+        }
+
+        .footer .newsletter input {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .footer .newsletter button {
+            padding: 10px 20px;
+            background: #FFD700; /* Golden Yellow */
+            color: #003366; /* Deep Ocean Blue */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .footer .newsletter button:hover {
+            background: #e6b800; /* Darker shade of gold */
+        }
+
+        .footer .copyright {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #ccc;
+        }

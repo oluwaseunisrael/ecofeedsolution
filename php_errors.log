@@ -1,0 +1,18 @@
+[20-Feb-2025 22:48:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'ecofpzeg_admin2'@'localhost' to database 'ecofpzeg_ecofeedsolution' in /home/ecofpzeg/public_html/config/conn.php:9
+Stack trace:
+#0 /home/ecofpzeg/public_html/config/conn.php(9): mysqli_connect()
+#1 /home/ecofpzeg/public_html/index.php(89): include('/home/ecofpzeg/...')
+#2 {main}
+  thrown in /home/ecofpzeg/public_html/config/conn.php on line 9
+[03-Jun-2025 01:01:02 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'ecofpzeg_admin2'@'localhost' (using password: YES) in C:\xampp\htdocs\admin (1)\config\conn.php:9
+Stack trace:
+#0 C:\xampp\htdocs\admin (1)\config\conn.php(9): mysqli_connect('localhost', 'ecofpzeg_admin2', Object(SensitiveParameterValue), 'ecofpzeg_ecofee...')
+#1 C:\xampp\htdocs\admin (1)\index.php(182): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\admin (1)\config\conn.php on line 9
+[01-Oct-2025 07:13:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/ecofpzeg/public_html/config/conn.php:9
+Stack trace:
+#0 /home/ecofpzeg/public_html/config/conn.php(9): mysqli_connect()
+#1 /home/ecofpzeg/public_html/index.php(182): include('/home/ecofpzeg/...')
+#2 {main}
+  thrown in /home/ecofpzeg/public_html/config/conn.php on line 9
